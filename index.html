@@ -3,17 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Checkintexts</title>
+    <title>Check/In | Checkintexts</title>
+    <meta name="description" content="Check/In helps you schedule thoughtful check-ins so you show up consistently without carrying a mental calendar." />
+    <meta property="og:title" content="Check/In by Checkintexts" />
+    <meta property="og:description" content="Schedule thoughtful check-ins. You write the message. We remind you." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://checkintexts.com/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Check/In by Checkintexts" />
+    <meta name="twitter:description" content="Schedule thoughtful check-ins. You write the message. We remind you." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0.5' y1='0' x2='0.5' y2='1'%3E%3Cstop offset='0' stop-color='%232f79e8'/%3E%3Cstop offset='1' stop-color='%232bbf7f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Cpath d='M41 20H26c-3.3 0-6 2.7-6 6v12c0 3.3 2.7 6 6 6h15v-4H26c-1.1 0-2-.9-2-2V26c0-1.1.9-2 2-2h15v-4z' fill='white'/%3E%3C/svg%3E" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Manrope:wght@400;600;700&display=swap');
+      :root { --ink:#0f1f2f; --ink-soft:#36536f; --card:rgba(255,255,255,.92); --line:rgba(15,31,47,.12); --blue:#2f79e8; --green:#2bbf7f; }
+      *{box-sizing:border-box} body{margin:0;min-height:100vh;font-family:'Manrope',system-ui,sans-serif;color:var(--ink);background:linear-gradient(180deg,var(--blue),var(--green))}
+      a{color:inherit;text-decoration:none}.shell{max-width:1100px;margin:0 auto;padding:22px}.glass{background:var(--card);border:1px solid var(--line);border-radius:20px;backdrop-filter:blur(8px)}
+      .topbar{padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-family:'Fraunces',serif;font-size:22px}.nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;color:var(--ink-soft)}
+      .hero{margin-top:14px;padding:34px;display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:22px;align-items:center}h1,h2{font-family:'Fraunces',serif;margin:0}h1{font-size:clamp(34px,5vw,58px);line-height:1.02}
+      .sub{margin-top:14px;color:var(--ink-soft);font-size:18px;max-width:54ch}.cta-row{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}.btn{padding:12px 18px;border-radius:999px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center}
+      .btn-primary{background:var(--ink);color:#fff}.btn-secondary{border:1px solid var(--line);background:#fff}.note{margin-top:12px;font-size:13px;color:var(--ink-soft)}.panel{padding:18px;border-radius:16px;border:1px solid var(--line);background:#fff}
+      .panel h2{font-size:22px}.panel ul{margin:12px 0 0;padding-left:18px;color:var(--ink-soft);display:grid;gap:8px}.section{margin-top:14px;padding:26px}.section h2{font-size:30px}
+      .steps{margin-top:16px;display:grid;gap:12px}.step{display:grid;grid-template-columns:40px 1fr;gap:12px;padding:14px;border-radius:14px;border:1px solid var(--line);background:#fff}.dot{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;font-weight:700;background:rgba(47,121,232,.12);color:var(--blue)}
+      .grid{margin-top:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.card{padding:16px;border:1px solid var(--line);border-radius:14px;background:#fff}.card h3{margin:0 0 8px}.card p{margin:0;color:var(--ink-soft)}
+      .pricing{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#fff;display:grid;gap:8px}footer{margin-top:14px;padding:18px 22px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.86);color:var(--ink-soft);font-size:14px}.footer-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}
+    </style>
   </head>
   <body>
-    <main>
-      <h1>Checkintexts</h1>
-      <p>Support and policy information for the Checkintexts app.</p>
-      <ul>
-        <li><a href="/support/">Support</a></li>
-        <li><a href="/privacy/">Privacy</a></li>
-        <li><a href="/terms/">Terms</a></li>
-      </ul>
-    </main>
+    <div class="shell">
+      <header class="topbar glass"><div class="brand">Check/In</div><nav class="nav"><a href="#how">How it works</a><a href="#benefits">Benefits</a><a href="#pricing">Pricing</a><a href="/support/">Support</a></nav></header>
+      <main>
+        <section class="hero glass">
+          <div><h1>Stay in touch without keeping a mental calendar.</h1><p class="sub">Check/In helps busy people schedule thoughtful check-ins with the people they care about. You write the message. We remind you at the right time. You decide to send.</p><div class="cta-row"><a class="btn btn-primary" href="https://apps.apple.com/us/app/check-in/id6757970520" target="_blank" rel="noopener noreferrer">Download on App Store</a><a class="btn btn-secondary" href="/support/">Need support</a></div><div class="note">No auto-sending. No spam. Just consistent relationships.</div></div>
+          <aside class="panel"><h2>Designed for real life</h2><ul><li>Schedule reminders every few days, months, or yearly.</li><li>Messages are always written by you.</li><li>Tap to open your phone’s message composer when it’s time.</li></ul></aside>
+        </section>
+        <section class="section glass" id="how"><h2>How it works</h2><div class="steps"><div class="step"><div class="dot">1</div><div><strong>Pick a contact</strong><p>Choose who you want to stay close to and select the phone number you’ll use.</p></div></div><div class="step"><div class="dot">2</div><div><strong>Write the message</strong><p>All check-ins are personal. You write the message you want to send.</p></div></div><div class="step"><div class="dot">3</div><div><strong>Set the cadence</strong><p>Daily, weekly, monthly. Your schedule, your time zone, your pace.</p></div></div><div class="step"><div class="dot">4</div><div><strong>Get reminded</strong><p>Check/In opens your phone’s message composer when it’s time. You decide to send.</p></div></div></div></section>
+        <section class="section glass" id="benefits"><h2>Why people stick with Check/In</h2><div class="grid"><article class="card"><h3>Clarity in the moment</h3><p>See exactly who needs a check-in and when, so nothing slips by.</p></article><article class="card"><h3>Always human</h3><p>We never generate or send messages automatically. You stay in control.</p></article><article class="card"><h3>Built for busy professionals</h3><p>A simple system to maintain friendships and family ties with intention.</p></article><article class="card"><h3>Privacy-first by design</h3><p>Data stays on your device unless you choose to sync.</p></article></div></section>
+        <section class="section glass" id="pricing"><h2>Simple pricing</h2><div class="pricing"><strong>Free</strong><p>Schedule up to 3 contacts.</p><strong>Check/In Plus</strong><p>$6.99/month or $69.99/year - schedule more people, never miss again.</p></div></section>
+      </main>
+      <footer><div>Checkintexts - the home of Check/In.</div><div class="footer-links"><a href="https://apps.apple.com/us/app/check-in/id6757970520" target="_blank" rel="noopener noreferrer">App Store</a><a href="/support/">Support</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div></footer>
+    </div>
   </body>
 </html>

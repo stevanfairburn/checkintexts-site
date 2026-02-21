@@ -3,35 +3,64 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Support | Checkintexts</title>
+    <title>Support | Check/In</title>
+    <meta name="description" content="Support for Check/In by Checkintexts." />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Manrope:wght@400;600;700&display=swap');
+      :root { --ink:#0f1f2f; --ink-soft:#36536f; --card:rgba(255,255,255,.92); --line:rgba(15,31,47,.12); --blue:#2f79e8; --green:#2bbf7f; }
+      *{box-sizing:border-box} body{margin:0;min-height:100vh;font-family:'Manrope',system-ui,sans-serif;color:var(--ink);background:linear-gradient(180deg,var(--blue),var(--green))}
+      a{color:inherit}.shell{max-width:920px;margin:0 auto;padding:22px}.glass{background:var(--card);border:1px solid var(--line);border-radius:20px;backdrop-filter:blur(8px)}
+      .topbar{padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-family:'Fraunces',serif;font-size:22px}.nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;color:var(--ink-soft)}
+      .content{margin-top:14px;padding:28px}.content h1,.content h2{font-family:'Fraunces',serif;margin:0 0 10px}.content h1{font-size:clamp(30px,5vw,44px)}
+      .content h2{font-size:24px;margin-top:24px}.content p,.content li{color:var(--ink-soft);line-height:1.6}.content ul,.content ol{padding-left:22px}
+      .cta{margin-top:10px;display:inline-flex;padding:11px 16px;border-radius:999px;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:14px}
+      footer{margin-top:14px;padding:18px 22px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.86);color:var(--ink-soft);font-size:14px}
+      .footer-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}
+    </style>
   </head>
   <body>
-    <main>
-      <h1>Checkintexts Support</h1>
-      <p>Checkintexts helps you schedule personal check-ins with friends and family so you can stay in touch consistently.</p>
+    <div class="shell">
+      <header class="topbar glass">
+        <div class="brand">Check/In</div>
+        <nav class="nav">
+          <a href="/">Home</a>
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+        </nav>
+      </header>
 
-      <p>Email support: <a href="mailto:support@checkintexts.com">support@checkintexts.com</a></p>
+      <main class="content glass">
+        <h1>Support</h1>
+        <p>Checkintexts helps you schedule personal check-ins with friends and family so you can stay in touch consistently.</p>
 
-      <h2>How it works</h2>
-      <ol>
-        <li>You write a message and choose a cadence.</li>
-        <li>The app schedules a reminder on your device.</li>
-        <li>At the scheduled time, the app opens your phone's message composer.</li>
-        <li>You review the message and decide whether to send it.</li>
-      </ol>
-      <p>The app does not send messages automatically.</p>
+        <p>Email support: <a href="mailto:support@checkintexts.com">support@checkintexts.com</a></p>
+        <a class="cta" href="https://apps.apple.com/us/app/check-in/id6757970520" target="_blank" rel="noopener noreferrer">Download on App Store</a>
 
-      <h2>FAQ</h2>
-      <ul>
-        <li><strong>Does it send messages automatically?</strong> No.</li>
-        <li><strong>Does it reply or continue conversations?</strong> No.</li>
-        <li><strong>Are messages generated automatically?</strong> No.</li>
-      </ul>
-    </main>
-    <footer>
-      <p>
-        <a href="/privacy/">Privacy</a> | <a href="/terms/">Terms</a>
-      </p>
-    </footer>
+        <h2>How it works</h2>
+        <ol>
+          <li>You write a message and choose a cadence.</li>
+          <li>The app schedules a reminder on your device.</li>
+          <li>At the scheduled time, the app opens your phone's message composer.</li>
+          <li>You review the message and decide whether to send it.</li>
+        </ol>
+        <p>The app does not send messages automatically.</p>
+
+        <h2>FAQ</h2>
+        <ul>
+          <li><strong>Does it send messages automatically?</strong> No.</li>
+          <li><strong>Does it reply or continue conversations?</strong> No.</li>
+          <li><strong>Are messages generated automatically?</strong> No.</li>
+        </ul>
+      </main>
+
+      <footer>
+        <div>Need help? Reach us at <a href="mailto:support@checkintexts.com">support@checkintexts.com</a>.</div>
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
